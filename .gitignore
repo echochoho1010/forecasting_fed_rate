@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# CatBoost training artefacts
+catboost_info/
+analysis/catboost_info/
+
+# Executed / temp notebook copies
+*_executed.ipynb
+*_test.ipynb
+
+# macOS
+.DS_Store
+
+# Environments
+.venv/
+.conda/
+*.egg-info/
+
+# Large generated prediction files (optional – keep data/ CSVs committed)
+data/preds_*.csv
