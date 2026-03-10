@@ -22,3 +22,7 @@ analysis/catboost_info/
 
 # Large generated prediction files (optional – keep data/ CSVs committed)
 data/preds_*.csv
+
+# Local cache / pickle files (auto-generated at runtime)
+*.pkl
+data/*.pkl
